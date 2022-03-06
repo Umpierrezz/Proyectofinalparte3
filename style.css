@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: fantasy;
 }
@@ -16,6 +19,18 @@ h1{
     padding-top: 40px;
     padding-bottom: 40px;
     background-image: url("./assets/images/fondoH1.webp");
+    animation: entrada 5s infinite alternate;
+}
+
+
+
+@keyframes entrada {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
 }
 
 
@@ -56,4 +71,12 @@ h6 {
 
 footer p{
     text-align: left;
+}
+
+
+@media (max-width:550px) {
+    #logo {
+        display: none;
+
+    }
 }
