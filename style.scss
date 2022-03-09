@@ -1,16 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@import "./scss/global";
+@import "./scss/header";
 
-body {
-    font-family: fantasy;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
 
 h1{
     text-align: center;
@@ -21,19 +11,16 @@ h1{
     padding-bottom: 40px;
     background-image: url("./assets/images/fondoH1.webp");
     animation: entrada 5s infinite alternate;
-}
-
-
-
-@keyframes entrada {
-    0% {
-      opacity: 0;
+    @keyframes entrada {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
     }
-    100% {
-      opacity: 1;
-    }
-}
 
+}
 
 h2 {
     text-align: center;
@@ -42,16 +29,17 @@ h2 {
 
 section {
     padding-top: 70px;
-    background-color: rgb(34, 29, 29);
+    background-color: rgb(19, 16, 16);
     padding-bottom: 50px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 5px;
+    }
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 5px;
-}
+
 
 img {
     max-width: 400px;
@@ -62,16 +50,15 @@ footer {
     background-color: rgba(24, 39, 33, 0.952);
     padding-top: 10px;
     padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    p{
+        text-align: left;
+    }
 }
 
 h6 {
     color: white
-}
-
-footer p{
-    text-align: left;
 }
 
 

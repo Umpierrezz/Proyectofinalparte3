@@ -1,0 +1,8 @@
+a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        color: rgb(21, 138, 56);
+        border-bottom: 2px solid white;
+    }
+}
