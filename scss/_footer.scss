@@ -1,0 +1,12 @@
+footer {
+    @extend .containerTemplate;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    button {
+        margin-left: 5px;
+        margin-right: 5px;
+        align-items: center;
+    }
+}
+
+

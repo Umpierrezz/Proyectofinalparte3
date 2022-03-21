@@ -8,3 +8,22 @@ body {
 }
 
 
+img {
+    max-width: 400px;
+    max-height: 190px;
+}
+
+@mixin texto ($paddingLR) {
+    section {
+        padding-top: 70px $paddingLR;
+        background-color: rgb(19, 16, 16);
+        padding-bottom: 50px;
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: whitesmoke;
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+}
+
